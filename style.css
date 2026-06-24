@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+.header {
+    grid-column: 2 / -1;
+}
+
+.sidebar {
+    grid-row: 1 / 3;
+}
+
+.main-content{
+    grid-column: 2 / -1;
+    grid-row: 2 / 3;
+}
