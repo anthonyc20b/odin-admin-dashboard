@@ -13,6 +13,25 @@
 .header {
     grid-column: 2 / -1;
     background-color: white;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 2fr 1fr;
+}
+
+.search {
+    align-self: center;
+}
+
+.profile {
+    align-self: center;
+}
+
+.user-info {
+    align-items: center;
+}
+
+.actions {
+    align-self: center;
 }
 
 .sidebar {
@@ -31,12 +50,7 @@
     font-size: 24px;
 }
 
-.nav-list li {
-    margin-bottom: 10px;
-    list-style-type: none;
-}
-
-.settings li{
+.nav-list li, .settings li {
     margin-bottom: 10px;
     list-style-type: none;
 }
