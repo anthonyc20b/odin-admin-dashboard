@@ -144,6 +144,7 @@
     font-size: 20px;
     font-weight: bold;
     color: black;
+    margin-bottom: 5px;
 }
 
 .card {
@@ -152,6 +153,15 @@
     height: 200px;
     border-radius: 25px;
     padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-actions {
+    display: flex;
+    gap: 20px;
+    align-self: flex-end;
+    margin-top: 50px;
 }
 
 .svg-image{
