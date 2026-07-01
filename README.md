@@ -9,13 +9,13 @@ A responsive-ish admin dashboard UI built with HTML and CSS, using nested CSS Gr
 
 ## Screenshot Reference
 
-![Reference](/images/dashboard-project.png)
+![Reference](images/dashboard-project.png)
 
 ---
 
 ## Screenshot Final Product
 
-![Final Product](/images/odin-admin-dashboard-final.png)
+![Final Product](images/odin-admin-dashboard-final.png)
 
 ---
 
