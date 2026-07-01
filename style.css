@@ -1,9 +1,7 @@
 @font-face {
     font-family: 'RobotoCustom';
     src: url('fonts/Roboto-VariableFont.woff'),
-         url('fonts/Roboto-VariableFont.woff2')
-         url('fonts/Roboto-Italic-VariableFont.woff'),
-         url('fonts/Roboto-Italic-VariableFont.woff2'),;
+         url('fonts/Roboto-VariableFont.woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -106,7 +104,6 @@
 }
 
 .nav-list li, .settings li {
-    margin-bottom: 10px;
     list-style-type: none;
     display: flex;
     gap: 5px;
@@ -140,7 +137,7 @@
     margin: 20px;
 }
 
-.card p {
+.card-grid p, .announcements p {
     color: grey;
     font-size: 18px;
 }
@@ -159,6 +156,9 @@
     padding: 25px;
     display: flex;
     flex-direction: column;
+}
+
+.card-grid .card {
     border-left: 10px rgb(240, 180, 41) solid;
 }
 
@@ -174,13 +174,11 @@
 }
 
 .announcements .card {
-    border: none;
     margin: 20px 20px 20px 0px;
     gap: 15px;
 }
 
 .trending .card {
-    border: none;
     margin: 20px 20px 0px 0px;
     gap: 20px;
 }
@@ -189,6 +187,7 @@
     display: flex;
     gap: 15px;
     align-items: center;
+    color: black;
 }
 
 .svg-image{
@@ -214,5 +213,4 @@
 
 .profile-img-large {
     width: 60px;
-    margin-bottom: 10px;
 }
