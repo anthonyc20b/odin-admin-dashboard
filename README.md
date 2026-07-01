@@ -21,7 +21,7 @@ A responsive-ish admin dashboard UI built with HTML and CSS, using nested CSS Gr
 
 ## About This Project
 
-The goal wasn't to build something responsive from the ground up, it was to practice structuring a complex layout with CSS Grid and Flexbox, and get comfortable nesting grid containers within grid containers. The Odin Project provides a reference design, and this build is a close recreation of it.
+The goal wasn't to build something responsive, it was to practice structuring a complex layout with CSS Grid and Flexbox, and get comfortable nesting grid containers within grid containers from the ground up. The Odin Project provides a reference design, and this build is a close recreation of it.
 
 I started by wireframing the structure in HTML. The sidebar, header, and main-content as the three top-level containers, before applying any styling. From there, I built out the base grid for each section, then went section by section nesting additional grid and flex containers to lay out the internal content. Colors, fonts, SVG icons, and final content were layered in last, once the structural skeleton was solid.
 
