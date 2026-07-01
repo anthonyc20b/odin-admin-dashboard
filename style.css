@@ -127,6 +127,10 @@
     grid-row: 1 / 3;
 }
 
+.projects h2 {
+    margin-left: 20px;
+}
+
 .card-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -150,11 +154,11 @@
 .card {
     background-color: #FFFFFF;
     color: black;
-    height: 200px;
-    border-radius: 25px;
+    border-radius: 15px;
     padding: 25px;
     display: flex;
     flex-direction: column;
+    border-left: 10px rgb(240, 180, 41) solid;
 }
 
 .card-actions {
