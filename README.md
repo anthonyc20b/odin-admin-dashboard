@@ -15,7 +15,7 @@ A responsive-ish admin dashboard UI built with HTML and CSS, using nested CSS Gr
 
 ## Screenshot Final Product
 
-![Final Product](/images/odin-admin-dashboard-final)
+![Final Product](/images/odin-admin-dashboard-final.png)
 
 ---
 
@@ -63,6 +63,8 @@ cd odin-admin-dashboard
 ```
 
 Then open `index.html` in your browser.
+
+Or just use the **[Live Demo](https://anthonyc20b.github.io/odin-admin-dashboard)**
 
 ## Acknowledgments
 
