@@ -9,12 +9,19 @@
 <body>
     <div class="container">
         <div class="header">
-            <div class="search">
+            
+            <div class="search-container">
+                <img src="icons/magnify.svg" alt="magnifying glass" class="svg-image-small" id="search">  
+                
+                <div class="search-bar">
                     <form action="/search" method="GET">
-                    <!-- <label for="search">Search:</label> Replace with vector image -->
-                    <input type="text" id="search" name="search" placeholder="Search here">
-                </form>
+                        <!-- <label for="search">Search:</label> Replace with vector image -->
+                        <input type="text" id="search" name="search" placeholder="Search here" class="search-input">
+                    </form>
+                </div>
+
             </div>
+
             <div class="profile">
                 <p>Notifications</p>
                 <p>Profile Image</p>

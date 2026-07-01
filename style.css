@@ -33,6 +33,28 @@
     align-self: center;
 }
 
+.search-container {
+    display: flex;
+    width: 800px;
+    margin-left: 10px;
+}
+
+.search-bar {
+    display: flex;
+    border: 1px #ccc solid;
+    border-radius: 25px;
+    width: 780px;
+    overflow: hidden;
+}
+
+.search-input{
+    background-color: rgb(226, 232, 240);
+    width: 780px;
+    border: none;
+    padding: 10px 20px;
+    outline: none;
+}
+
 .sidebar {
     grid-row: 1 / 3;
     background-color: rgb(25, 146, 212);
@@ -60,6 +82,23 @@
     margin-bottom: 20px;
 }
 
+.svg-image{
+    width: 40px;
+    filter: invert(1) grayscale(100%);
+    /* Changes the color of the SVG without needing seperate rules for background colors */
+}
+
+.svg-image-small{
+    width: 25px;
+    filter: invert(1) grayscale(100%);
+    margin-right: 10px;
+}
+
+#search {
+    filter: invert(0);
+    /* Remove the invert property for just the search SVG */
+} 
+
 .main-content{
     grid-column: 2 / -1;
     grid-row: 2 / 3;
@@ -71,16 +110,4 @@
 .projects{
     grid-column: 1 / 2;
     grid-row: 1 / 3;
-}
-
-.svg-image{
-    width: 40px;
-    filter: invert(1) grayscale(100%);
-    /* Changes the color of the SVG without needing seperate rules for background colors */
-}
-
-.svg-image-small{
-    width: 25px;
-    filter: invert(1) grayscale(100%);
-    margin-right: 10px;
 }
