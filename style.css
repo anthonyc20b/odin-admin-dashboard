@@ -119,6 +119,7 @@
     background-color: rgb(226, 232, 240);
     display: grid;
     grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
     padding-top: 30px;
 }
 
@@ -139,13 +140,13 @@
     margin: 20px;
 }
 
-.card-grid p {
+.card p {
     color: grey;
     font-size: 18px;
 }
 
 .card-grid .title {
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     color: black;
     margin-bottom: 5px;
@@ -166,6 +167,16 @@
     gap: 20px;
     align-self: flex-end;
     margin-top: 50px;
+}
+
+.announcements h3 {
+    margin-bottom: 5px;
+}
+
+.announcements .card {
+    border: none;
+    margin: 20px 20px 20px 0px;
+    gap: 15px;
 }
 
 .svg-image{
