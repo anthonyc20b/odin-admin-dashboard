@@ -45,6 +45,7 @@
     border-radius: 25px;
     width: 780px;
     overflow: hidden;
+    margin-left: 10px;
 }
 
 .search-input{
@@ -53,6 +54,12 @@
     border: none;
     padding: 10px 20px;
     outline: none;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 25px;
 }
 
 .sidebar {
@@ -94,10 +101,14 @@
     margin-right: 10px;
 }
 
-#search {
-    filter: invert(0);
-    /* Remove the invert property for just the search SVG */
-} 
+.svg-image-small-black{
+    width: 25px;
+    filter: invert(0) grayscale(100%);
+}
+
+.profile-img {
+    width: 50px;
+}
 
 .main-content{
     grid-column: 2 / -1;
