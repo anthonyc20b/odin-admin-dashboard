@@ -33,6 +33,7 @@ The layout is split into three main sections:
 ## Features
 
 - Layout built entirely with nested CSS Grid containers (grids inside grids)
+- Custom CSS Variables to control theme and support maintenance
 - Flexbox used for smaller-scale alignment within components
 - SVG icons from [Material Design Icons](https://pictogrammers.com/library/mdi/) for navigation links and card actions
 - Google Fonts (Roboto) for typography
